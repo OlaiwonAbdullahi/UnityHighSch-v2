@@ -1,5 +1,7 @@
 const App = () => {
-  return <div>Unity High School</div>;
+  return (
+    <div className="text-4xl font-mono text-center">Unity High School</div>
+  );
 };
 
 export default App;
