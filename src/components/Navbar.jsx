@@ -31,7 +31,7 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center font-titaliun">
-          <button className="flex gap-1 text-sm bg-secondary items-center p-1 rounded-full text-primary px-2 mr-2">
+          <button className="flex gap-1 text-sm bg-secondary items-center p-3 rounded-full text-primary px-2 mr-2">
             Portal <GoArrowUpRight className="mt-1 h-5 w-5" />
           </button>
         </div>
