@@ -31,9 +31,17 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center font-titaliun">
+<<<<<<< HEAD
           <button className="flex gap-1 text-sm bg-secondary items-center p-3 rounded-full text-primary px-2 mr-2">
             Portal <GoArrowUpRight className="mt-1 h-5 w-5" />
           </button>
+=======
+          <a href="https://ogsera.ogunstate.gov.ng/login">
+            <button className="flex gap-1 text-sm bg-secondary items-center p-1 rounded-full text-primary px-2 mr-2">
+              Portal <GoArrowUpRight className="mt-1 h-5 w-5" />
+            </button>
+          </a>
+>>>>>>> 8e90bff77ecc204083ed0a13e5019c19c2aca1cf
         </div>
       </div>
     </header>
