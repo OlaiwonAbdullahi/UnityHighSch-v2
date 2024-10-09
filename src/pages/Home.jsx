@@ -1,5 +1,12 @@
-const Home = () => {
-  return <div>Home</div>;
-};
+import React from 'react'
+import Hero from '../components/hero'
 
-export default Home;
+const Home = () => {
+  return (
+    <div>
+      <Hero />
+    </div>
+  )
+}
+
+export default Home

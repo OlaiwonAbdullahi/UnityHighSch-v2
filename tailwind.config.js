@@ -9,8 +9,8 @@ export default {
         text: "#0f0c0c",
       },
       fontFamily: {
-        pop: ["Poppins", "sans-serif"],
-        titaliun: ["Titillium Web", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        titalium: ["Titillium Web", "sans-serif"],
       },
     },
   },

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header className="flex justify-center">
-      <div className="flex justify-between  bg-yellow-50 m-4 rounded-full border border-text h-full w-3/4 top-0 sticky">
+      <div className="flex justify-between  bg-yellow-100 m-4 rounded-full border border-text border-none h-full w-3/4 top-0 sticky">
         <div className="flex gap-3 p-2">
           <img
             src={Ogun}
@@ -31,17 +31,12 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center font-titaliun">
-<<<<<<< HEAD
-          <button className="flex gap-1 text-sm bg-secondary items-center p-3 rounded-full text-primary px-2 mr-2">
-            Portal <GoArrowUpRight className="mt-1 h-5 w-5" />
-          </button>
-=======
           <a href="https://ogsera.ogunstate.gov.ng/login">
-            <button className="flex gap-1 text-sm bg-secondary items-center p-1 rounded-full text-primary px-2 mr-2">
+            <button className="flex gap-1 text-sm bg-secondary items-center p-2 rounded-full text-primary px-2 mr-2">
               Portal <GoArrowUpRight className="mt-1 h-5 w-5" />
             </button>
           </a>
->>>>>>> 8e90bff77ecc204083ed0a13e5019c19c2aca1cf
+
         </div>
       </div>
     </header>
