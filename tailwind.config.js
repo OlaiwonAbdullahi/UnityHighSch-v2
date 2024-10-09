@@ -8,6 +8,10 @@ export default {
         secondary: "#f74040",
         text: "#0f0c0c",
       },
+      fontFamily: {
+        pop: ["Poppins", "sans-serif"],
+        titaliun: ["Titillium Web", "sans-serif"],
+      },
     },
   },
   plugins: [],
