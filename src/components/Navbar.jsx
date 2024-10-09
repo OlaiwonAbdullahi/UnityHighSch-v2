@@ -1,6 +1,7 @@
 import { GoArrowUpRight } from "react-icons/go";
 import Logo from "../assets/Logo.png";
 import Ogun from "../assets/ogun.jpg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -17,9 +18,15 @@ const Navbar = () => {
 
         <nav>
           <ul className="flex gap-4 p-4 items-center text-base text-text font-titaliun font-semibold">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+            <Link to="/">
+              <li>Home</li>
+            </Link>
+            <Link to="/about">
+              <li>About</li>
+            </Link>
+            <Link to="/contact">
+              <li>Contact</li>
+            </Link>
           </ul>
         </nav>
 
