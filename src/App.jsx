@@ -1,6 +1,10 @@
+import Navbar from "./components/Navbar";
+
 const App = () => {
   return (
-    <div className="text-4xl font-mono text-center">Unity High School</div>
+    <div className="">
+      <Navbar />
+    </div>
   );
 };
 
