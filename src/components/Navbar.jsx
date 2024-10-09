@@ -3,24 +3,26 @@ import Logo from "../assets/Logo.png";
 import Ogun from "../assets/ogun.jpg";
 const Navbar = () => {
   return (
-    <div className=" flex justify-between p-4">
-      <div className=" flex gap-3 p-2">
-        <img src={Ogun} alt="" className=" h-10 w-10" />
-        <img src={Logo} alt="" className=" h-10 w-10" />
-      </div>
-      <div className="">
-        <nav>
-          <ul className=" flex gap-4 p-4">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-      </div>
-      <div className="">
-        <button className=" flex gap-2">
-          Portal <GoArrowUpRight />
-        </button>
+    <div className=" flex">
+      <div className=" flex justify-between p-2 bg-primary m-4 rounded-full border border-text h-full w-3/4">
+        <div className=" flex gap-3 p-2">
+          <img src={Ogun} alt="" className=" h-10 w-10 rounded-full" />
+          <img src={Logo} alt="" className=" h-10 w-10" />
+        </div>
+        <div className="">
+          <nav>
+            <ul className=" flex gap-4 p-4 items-center text-base">
+              <li>Home</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
+        </div>
+        <div className=" flex items-center">
+          <button className=" flex gap-2 text-sm bg-secondary items-center p-1 rounded-full text-primary px-2">
+            Portal <GoArrowUpRight className=" mt-1 h-5 w-5" />
+          </button>
+        </div>
       </div>
     </div>
   );
