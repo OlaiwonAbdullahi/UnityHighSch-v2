@@ -36,10 +36,6 @@ const Navbar = () => {
               Portal <GoArrowUpRight className="mt-1 h-5 w-5" />
             </button>
           </a>
-<<<<<<< HEAD
-
-=======
->>>>>>> 15eb45a88be818aa35b37a2ba15d4346d8cefd9e
         </div>
       </div>
     </header>
