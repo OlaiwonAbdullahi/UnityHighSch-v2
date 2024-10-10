@@ -10,7 +10,7 @@ const MobileNavBar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <header className="flex flex-col justify-center items-center sticky top-0 z-50 md:hidden">
+    <header className="flex flex-col justify-center items-center sticky top-0 z-50 md:hidden mx-2">
       <div className="flex justify-between bg-yellow-50 m-4 rounded-full border border-text h-full w-full shadow-md">
         <div className="flex gap-3 p-2">
           <img
