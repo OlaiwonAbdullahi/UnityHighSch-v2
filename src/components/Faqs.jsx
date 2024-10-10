@@ -18,9 +18,9 @@ const FAQItem = ({ question, answer }) => {
         <h3 className="text-lg font-semibold font-titalium">{question}</h3>
         <span>
           {isOpen ? (
-            <CiCircleMinus className=" h-6 w-6 text-secondary" />
+            <CiCircleMinus className="h-6 w-6 text-secondary" />
           ) : (
-            <CiCirclePlus className=" h-6 w-6 text-secondary" />
+            <CiCirclePlus className="h-6 w-6 text-secondary" />
           )}
         </span>
       </div>
@@ -42,36 +42,35 @@ const FAQAccordion = () => {
         "The school operates from 7:00AM to 2:00PM on regular school days.",
     },
     {
-      question: "How can i contact the school office?",
+      question: "How can I contact the school office?",
       answer:
-        " You can reach the school office at +234 806 596 5321or uhsijokoota@gmail.com during office hours.",
+        "You can reach the school office at +234 806 596 5321 or uhsijokoota@gmail.com during office hours.",
     },
     {
       question: "What extracurricular activities are offered?",
       answer:
         "Explore our Extracurriculars page to discover the range of activities available, from sports to clubs and special interest groups.",
     },
-
     {
-      question: " How do i acess my child grade and attendance infomation?",
+      question: "How do I access my child's grade and attendance information?",
       answer:
-        "Parent Can Access our Online portal,OGSERA,to Access Real-time Information on grade and Attendance.",
+        "Parents can access our online portal, OGSERA, to view real-time information on grades and attendance.",
     },
     {
-      question: " How can i stay updated to the school event?",
+      question: "How can I stay updated on school events?",
       answer:
-        "Subscribe to our NewsLetter on The Homepage And Follow us On Our Social Media Handles for the latest Update.",
+        "Subscribe to our newsletter on the homepage and follow us on our social media handles for the latest updates.",
     },
   ];
 
   return (
-    <div className="faq-accordion w-2/3 max-w-lg mx-auto p-4">
-      <div className=" text-center mb-5">
-        <h2 className="text-center text-text font-titalium text-4xl font-medium leading-normal ">
-          Questions we get the <span className=" text-secondary"> most</span>
+    <div className="faq-accordion w-full max-w-4xl mx-auto p-4 md:p-8">
+      <div className="text-center mb-5">
+        <h2 className="text-center text-text font-titalium text-4xl font-medium leading-normal">
+          Questions we get the <span className="text-secondary"> most</span>
         </h2>
         <span className="text-center text-sm font-poppins">
-          We Have Great Answer To All The Questions You Have To Ask
+          We have great answers to all the questions you may ask.
         </span>
       </div>
       {faqData.map((item, index) => (
