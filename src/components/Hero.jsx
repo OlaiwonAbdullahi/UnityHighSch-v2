@@ -20,7 +20,7 @@ const Hero = () => {
           Learn More
         </button>
         <a href="https://ogsera.ogunstate.gov.ng/login">
-          <button className=" flex  gap-2 items-center bg-secondary py-2 px-8 text-primary rounded-full text-lg h-12 w-40 hover:bg-primary hover:text-white transition duration-300 ease-in-out">
+          <button className=" flex  gap-2 items-center bg-secondary py-2 px-8 text-primary rounded-full text-lg h-12 w-40 hover:bg-primary hover:text-secondary hover:border hover:border-secondary transition duration-300 ease-in-out">
             Log In <IoIosLogIn className=" w-6 h-6" />
           </button>
         </a>
