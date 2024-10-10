@@ -3,11 +3,15 @@ import Logo from "../assets/Logo.png";
 import Ogun from "../assets/ogun.jpg";
 import { Link } from "react-router-dom";
 import { BsFilterRight } from "react-icons/bs";
+import { useState } from "react";
+import { LiaTimesSolid } from "react-icons/lia";
 
 const MobileNavBar = () => {
+  const [openMenu, setOpenMenu] = useState(false);
+
   return (
-    <header className="flex flex-col justify-center items-center  top-0 sticky">
-      <div className="flex justify-between  bg-yellow-50 m-4 rounded-full border border-text h-full w-3/4">
+    <header className="flex flex-col justify-center items-center sticky top-0 z-50">
+      <div className="flex justify-between bg-yellow-50 m-4 rounded-full border border-text h-full w-3/4 shadow-md">
         <div className="flex gap-3 p-2">
           <img
             src={Ogun}
@@ -16,11 +20,20 @@ const MobileNavBar = () => {
           />
           <img src={Logo} alt="School Logo" className="h-10 w-10" />
         </div>
-        <div className=" flex p-1 items-center mr-5">
-          <BsFilterRight className=" h-6 w-6 text-secondary" />
-        </div>
+        <button
+          onClick={() => setOpenMenu(!openMenu)}
+          className="flex p-1 items-center mr-5 transition-transform duration-200 ease-in-out"
+          aria-label="Toggle menu"
+        >
+          {openMenu ? (
+            <LiaTimesSolid className="h-6 w-6 text-secondary transform transition duration-200 ease-in-out hover:scale-110" />
+          ) : (
+            <BsFilterRight className="h-6 w-6 text-secondary transform transition duration-200 ease-in-out hover:scale-110" />
+          )}
+        </button>
       </div>
-      <Content />
+
+      {openMenu && <Content />}
     </header>
   );
 };
@@ -29,25 +42,24 @@ export default MobileNavBar;
 
 function Content() {
   return (
-    <div className="">
+    <div className="w-full bg-yellow-50 rounded-b-lg shadow-md">
       <nav>
         <ul className="flex flex-col gap-4 p-4 items-center text-base text-text font-titalium font-semibold">
-          <Link to="/">
+          <Link to="/" className="hover:text-secondary">
             <li>Home</li>
           </Link>
-          <Link to="/about">
+          <Link to="/about" className="hover:text-secondary">
             <li>About</li>
           </Link>
-
-          <Link to="/contact">
+          <Link to="/contact" className="hover:text-secondary">
             <li>Contact</li>
           </Link>
         </ul>
       </nav>
 
-      <div className="flex items-center justify-center font-titaliun">
-        <button className="flex gap-1 text-sm bg-secondary items-center p-1 rounded-full text-primary px-2 mr-2">
-          Portal <GoArrowUpRight className="mt-1 h-5 w-5" />
+      <div className="flex items-center justify-center font-titalium">
+        <button className="flex gap-1 text-sm bg-secondary items-center p-2 rounded-full text-primary mr-2">
+          Portal <GoArrowUpRight className="h-5 w-5 mt-1" />
         </button>
       </div>
     </div>
