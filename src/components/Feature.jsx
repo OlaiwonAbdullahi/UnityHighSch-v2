@@ -15,8 +15,8 @@ const Feature = () => {
           <span className="text-2xl">Classrooms</span>
         </div>
       </div>
-      <div className=" flex justify-center mt-6 w-full">
-        <button className="bg-transparent border border-secondary w-1/5 p-2 rounded-full whitespace-nowrap ">
+      <div className="flex justify-center mt-6 w-full">
+        <button className="bg-transparent border border-secondary w-1/3 h-12 p-3 rounded-full whitespace-nowrap">
           View Full Demography
         </button>
       </div>
