@@ -1,3 +1,4 @@
+import Feature from "../components/Feature";
 import Hero from "../components/Hero";
 import HeroImg from "../components/HeroImg";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Hero />
       <HeroImg />
+      <Feature />
     </div>
   );
 };

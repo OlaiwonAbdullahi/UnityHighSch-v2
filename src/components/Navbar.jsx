@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <header className="flex justify-center">
-      <div className="flex justify-between  bg-yellow-50 m-4 rounded-full border border-text h-full w-3/4 top-0 sticky">
+    <header className="flex justify-center  top-0 sticky">
+      <div className="flex justify-between  bg-yellow-50 m-4 rounded-full border border-text h-full w-3/4">
         <div className="flex gap-3 p-2">
           <img
             src={Ogun}

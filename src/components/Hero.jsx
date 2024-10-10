@@ -13,7 +13,7 @@ const Hero = () => {
           shaping students into compassionate, ethical leaders for the future.
         </p>
       </div>
-      <div className="flex justify-center gap-6 pt-8">
+      <div className="flex justify-center gap-6 pt-8 font-titalium">
         <button className="bg-transparent border border-secondary py-2 px-6 text-text rounded-full text-lg h-12 w-40 hover:bg-secondary hover:text-primary transition duration-300 ease-in-out">
           Learn More
         </button>
