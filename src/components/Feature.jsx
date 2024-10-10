@@ -16,7 +16,7 @@ const Feature = () => {
         </div>
       </div>
       <div className="flex justify-center mt-6 w-full">
-        <button className="bg-transparent border border-secondary w-1/3 h-12 p-3 rounded-full whitespace-nowrap">
+        <button className="bg-transparent border border-secondary w-2/3 md:w-1/4 h-12 p-3 rounded-full whitespace-nowrap">
           View Full Demography
         </button>
       </div>
