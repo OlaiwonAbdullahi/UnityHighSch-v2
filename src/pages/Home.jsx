@@ -1,4 +1,4 @@
-import FAQAccordion from "../components/FAqs";
+import FAQAccordion from "../components/Faqs";
 import Feature from "../components/Feature";
 import Hero from "../components/Hero";
 import HeroImg from "../components/HeroImg";
