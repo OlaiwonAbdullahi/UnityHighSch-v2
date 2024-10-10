@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
-    <div className="bg-[url('./assets/herobg.svg')] bg-auto bg-no-repeat bg-center h-screen/2 pt-8 pb-8">
-      <div className="flex flex-col items-center text-center gap-5 pt-10">
+    <div className="bg-[url('./assets/herobg.svg')] bg-auto bg-no-repeat bg-center h-screen/2 md:pt-8 pt-1 pb-8">
+      <div className="flex flex-col items-center text-center gap-5 md:pt-10 w-full">
         <h2 className="text-4xl md:text-5xl font-titalium font-semibold">
           We Provide <br />
           <span className="text-secondary">Unique Moral </span>
