@@ -1,3 +1,5 @@
+import { IoIosLogIn } from "react-icons/io";
+
 const Hero = () => {
   return (
     <div className="bg-[url('./assets/herobg.svg')] bg-auto bg-no-repeat bg-center h-screen/2 md:pt-8 pt-1 pb-8">
@@ -17,9 +19,11 @@ const Hero = () => {
         <button className="bg-transparent border border-secondary py-2 px-6 text-text rounded-full text-lg h-12 w-40 hover:bg-secondary hover:text-primary transition duration-300 ease-in-out">
           Learn More
         </button>
-        <button className="bg-secondary py-2 px-6 text-primary rounded-full text-lg h-12 w-40 hover:bg-primary hover:text-white transition duration-300 ease-in-out">
-          Log In
-        </button>
+        <a href="https://ogsera.ogunstate.gov.ng/login">
+          <button className=" flex  gap-2 items-center bg-secondary py-2 px-8 text-primary rounded-full text-lg h-12 w-40 hover:bg-primary hover:text-white transition duration-300 ease-in-out">
+            Log In <IoIosLogIn className=" w-6 h-6" />
+          </button>
+        </a>
       </div>
     </div>
   );
