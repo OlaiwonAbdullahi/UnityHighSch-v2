@@ -1,6 +1,7 @@
 import Feature from "../components/Feature";
 import Hero from "../components/Hero";
 import HeroImg from "../components/HeroImg";
+import Welcome from "../components/Welcome";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <HeroImg />
       <Feature />
+      <Welcome />
     </div>
   );
 };
