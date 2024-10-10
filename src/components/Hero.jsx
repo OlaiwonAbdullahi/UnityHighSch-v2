@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import HeroImage from '../assets/hero.jpg'
 
@@ -35,3 +36,5 @@ Enroll your child in a community where each student's journey is crafted with pr
 }
 
 export default Hero
+=======
+>>>>>>> 3f68baa76fccf8eac1accf31e0c3e28618059931
