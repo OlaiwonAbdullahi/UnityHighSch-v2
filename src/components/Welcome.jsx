@@ -1,6 +1,6 @@
 const Welcome = () => {
   return (
-    <div className="mt-8 border-l-4 border-l-secondary rounded-lg p-5 w-11/12 md:w-2/3 mx-auto bg-white shadow-lg flex flex-col justify-center text-left h-72">
+    <div className="mt-8 border-l-4 border-l-secondary rounded-lg p-5 w-11/12 md:w-2/3 mx-auto bg-white shadow-lg flex flex-col justify-center text-left h-full py-20">
       <p className="text-start font-poppins text-gray-700 leading-relaxed">
         Welcome to our online learning platform. At our institution, we
         prioritize not only academic achievement but also the development of

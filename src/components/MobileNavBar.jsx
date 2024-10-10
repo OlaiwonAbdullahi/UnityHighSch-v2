@@ -11,14 +11,14 @@ const MobileNavBar = () => {
 
   return (
     <header className="flex flex-col justify-center items-center sticky top-0 z-50 md:hidden mx-2">
-      <div className="flex justify-between bg-yellow-50 m-4 rounded-full border border-text h-full w-full shadow-md">
+      <div className="flex justify-between bg-yellow-50 m-4 rounded-full border border-text h-12 w-full shadow-md">
         <div className="flex gap-3 p-2">
           <img
             src={Ogun}
             alt="Ogun State Logo"
-            className="h-10 w-10 rounded-full"
+            className="h-8 w-8 rounded-full"
           />
-          <img src={Logo} alt="School Logo" className="h-10 w-10" />
+          <img src={Logo} alt="School Logo" className="h-8 w-8" />
         </div>
         <button
           onClick={() => setOpenMenu(!openMenu)}
