@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="bg-[url('./assets/herobg.svg')] bg-auto bg-no-repeat bg-center h-screen pt-8">
+    <div className="bg-[url('./assets/herobg.svg')] bg-auto bg-no-repeat bg-center h-screen/2 pt-8 pb-8">
       <div className="flex flex-col items-center text-center gap-5 pt-10">
         <h2 className="text-4xl md:text-5xl font-titalium font-semibold">
           We Provide <br />
