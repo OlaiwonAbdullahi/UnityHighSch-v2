@@ -6,7 +6,7 @@ import About from "./pages/About";
 
 const App = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-yellow-50/75">
       <Router>
         <Navbar />
         <Routes>
