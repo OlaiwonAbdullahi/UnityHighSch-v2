@@ -11,7 +11,7 @@ const MobileNavBar = () => {
 
   return (
     <header className="flex flex-col justify-center items-center sticky top-0 z-50 md:hidden">
-      <div className="flex justify-between bg-yellow-50 m-4 rounded-full border border-text h-full w-4/5 shadow-md">
+      <div className="flex justify-between bg-yellow-50 m-4 rounded-full border border-text h-full w-full shadow-md">
         <div className="flex gap-3 p-2">
           <img
             src={Ogun}
