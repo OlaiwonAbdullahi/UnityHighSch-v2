@@ -10,7 +10,7 @@ const MobileNavBar = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <header className="flex flex-col justify-center items-center sticky top-0 z-50">
+    <header className="flex flex-col justify-center items-center sticky top-0 z-50 md:hidden">
       <div className="flex justify-between bg-yellow-50 m-4 rounded-full border border-text h-full w-3/4 shadow-md">
         <div className="flex gap-3 p-2">
           <img
@@ -42,7 +42,7 @@ export default MobileNavBar;
 
 function Content() {
   return (
-    <div className="w-full bg-yellow-50 rounded-b-lg shadow-md">
+    <div className="w-3/4 bg-yellow-50 rounded-lg shadow-md p-3">
       <nav>
         <ul className="flex flex-col gap-4 p-4 items-center text-base text-text font-titalium font-semibold">
           <Link to="/" className="hover:text-secondary">

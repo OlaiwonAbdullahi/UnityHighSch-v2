@@ -10,13 +10,12 @@ const App = () => {
     <div className="bg-yellow-50/75">
       <Router>
         <Navbar />
-
+        <MobileNavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <MobileNavBar />
       </Router>
     </div>
   );
