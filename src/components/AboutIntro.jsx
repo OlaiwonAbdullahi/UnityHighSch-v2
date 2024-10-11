@@ -5,7 +5,7 @@ const AboutIntro = () => {
     <div className="font-titalium">
       <div className="bg-[url('./assets/aboutbg.png')] h-60 text-white uppercase text-xs ">
         <p className=" py-20 px-10  capitalize">
-          <BiHome color="white" className="text-base inline" />
+          <BiHome color="white" className="text-base inline " />
           Home / About Us
           <br />
           <br />
