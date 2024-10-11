@@ -1,8 +1,9 @@
+import AboutIntro from "../components/AboutIntro";
+
 const About = () => {
   return (
     <div>
-      About
-      <div className=""> some shii</div>
+      <AboutIntro/>
     </div>
   );
 };
