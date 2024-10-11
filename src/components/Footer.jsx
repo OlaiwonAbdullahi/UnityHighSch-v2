@@ -8,6 +8,12 @@ import { BsTelephone } from "react-icons/bs";
 import { MdWhatsapp } from "react-icons/md";
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="bg-yellow-100/35">
       <div className="flex justify-between p-2">
@@ -63,8 +69,9 @@ const Footer = () => {
       <div className="text-center font-titalium">
         <span>&copy; {new Date().getFullYear()} All Right Reserved</span>
       </div>
-
-      <div className="fixed bottom-4 right-4 flex  gap-2">
+      <br />
+      <br />
+      <div className="fixed bottom-4 right-4  flex  gap-2">
         <a
           href="https://wa.link/hgg7t2"
           className="text-3xl text-secondary hover:scale-110 transition-transform duration-300"
@@ -72,13 +79,13 @@ const Footer = () => {
         >
           <FaWhatsappSquare />
         </a>
-        <Link
-          to="/"
+        <button
           className="text-3xl text-secondary hover:scale-110 transition-transform duration-300"
           aria-label="Back to top"
+          onClick={scrollToTop}
         >
           <LuArrowUpSquare />
-        </Link>
+        </button>
       </div>
     </div>
   );
