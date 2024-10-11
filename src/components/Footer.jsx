@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <div className=" flex gap-2 p-2 text-3xl text-secondary sticky bottom-0">
           <FaWhatsappSquare />
-          <Link to="/:hero">
+          <Link to="/">
             <LuArrowUpSquare />
           </Link>
         </div>
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
       <hr className=" border-t border-t-secondary w-4/5 mx-auto" />
-      <div className=" text-center">
+      <div className=" text-center font-titalium">
         <span>&copy; {new Date().getFullYear()} All Right Reserved</span>
       </div>
     </div>
