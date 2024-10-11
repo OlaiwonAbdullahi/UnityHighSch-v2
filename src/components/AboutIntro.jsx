@@ -17,8 +17,8 @@ const AboutIntro = () => {
 
 <br /><br /><br />
 
-     <div className='flex px-16'>
-     <div  className='w-1/2'>
+     <div className='flex flex-col w-full lg:flex-row px-16'>
+     <div  className='w-full   lg:w-1/2'>
         <h3 className='uppercase font-bold text-3xl'><span className='border-b-4 border-secondary'>abo</span>ut us</h3>
         <br />
         <p>
