@@ -58,9 +58,11 @@ function Content() {
       </nav>
 
       <div className="flex items-center justify-center font-titalium">
-        <button className="flex gap-1 text-sm bg-secondary items-center p-2 rounded-full text-primary mr-2">
-          Portal <GoArrowUpRight className="h-5 w-5 mt-1" />
-        </button>
+        <a href="https://ogsera.ogunstate.gov.ng/login">
+          <button className="flex gap-1 text-sm bg-secondary items-center p-2 rounded-full text-primary mr-2">
+            Portal <GoArrowUpRight className="h-5 w-5 mt-1" />
+          </button>
+        </a>
       </div>
     </div>
   );
