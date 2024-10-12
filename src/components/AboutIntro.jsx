@@ -17,7 +17,7 @@ const AboutIntro = () => {
 
 <br /><br /><br />
 
-     <div className='flex flex-col w-full px-7 lg:flex-row px-7'>
+     <div className='flex flex-col w-full px-7 lg:flex-row '>
      <div  className='w-full   lg:w-1/2'>
         <h3 className='uppercase font-bold text-3xl'><span className='border-b-4 border-secondary'>abo</span>ut us</h3>
         <br />
@@ -27,9 +27,9 @@ const AboutIntro = () => {
         </p>
       </div>
 
-      {/* <div>
-            <img src="https://placehold.co/" alt="About Image" className='w-100%    lg:h-fit mx-28 my-14'/>
-      </div> */}
+      <div className='w-100% mx-7 my-3  lg:h-fit'>
+            <img src="https://placehold.co/600x400" alt="About Image" className=''/>
+      </div>
      </div>
     </div>
   )
