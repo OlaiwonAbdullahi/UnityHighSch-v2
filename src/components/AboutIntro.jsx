@@ -24,7 +24,7 @@ const AboutIntro = () => {
             <span className="border-b-4 border-secondary">abo</span>ut us
           </h3>
           <br />
-          <p className=" text-center font-poppins">
+          <p className=" text-start font-poppins">
             Unity High School,Ijoko-ota, formerly known and called Ijoko High
             School was established on the 26th of September,1980 by the Ogun
             state Government in fulfilment of one of the cardinal programmes of
