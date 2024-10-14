@@ -5,6 +5,7 @@ const M_VSection = () => {
     <div>
       <div className="flex justify-around p-7">
         <div className="w-1/5 text-center bg-primary font-titalium p-8">
+          <div className=""></div>
           <h3 className="font-poppins font-semibold uppercase text-center">
             our mission
           </h3>
