@@ -1,3 +1,4 @@
+import { VscSend } from "react-icons/vsc";
 import contact from "../assets/contact.jpg";
 
 const MessageForm = () => {
@@ -49,6 +50,10 @@ const MessageForm = () => {
               placeholder="Your Message"
               className="border rounded border-secondary p-2 w-full h-32 font-titalium placeholder:font-titalium bg-transparent focus:outline-none"
             ></textarea>
+            <button className=" rounded p-2 w-full justify-center gap-3 mt-2 text-center text-primary  font-titalium flex bg-secondary text-lg ">
+              Send
+              <VscSend className=" mt-1.5" />
+            </button>
           </form>
         </div>
       </div>
