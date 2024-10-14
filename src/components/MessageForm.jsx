@@ -14,7 +14,7 @@ const MessageForm = () => {
             />
 
             <div className="absolute inset-0 md:rounded-l-2xl rounded-2xl bg-black bg-opacity-70 flex items-center justify-center">
-              <h2 className="text-white text-4xl font-semibold">
+              <h2 className="text-white text-4xl font-semibold font-titalium">
                 Get in Touch
               </h2>
             </div>
