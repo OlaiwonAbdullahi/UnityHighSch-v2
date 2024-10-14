@@ -10,10 +10,10 @@ const MessageForm = () => {
             <img
               src={contact}
               alt=""
-              className="h-full w-full md:rounded-l-2xl rounded-2xl"
+              className="h-full w-full rounded-l-2xl rounded-r-2xl md:rounded-r-none"
             />
 
-            <div className="absolute inset-0 md:rounded-l-2xl rounded-2xl bg-black bg-opacity-70 flex items-center justify-center">
+            <div className="absolute inset-0 rounded-l-2xl rounded-r-2xl md:rounded-r-none bg-black bg-opacity-70 flex items-center justify-center">
               <h2 className="text-white text-4xl font-semibold font-titalium">
                 Get in Touch
               </h2>
