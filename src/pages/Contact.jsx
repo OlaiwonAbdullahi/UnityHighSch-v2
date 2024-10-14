@@ -1,16 +1,14 @@
 import ContactHeader from "../components/ContactHeader";
+import ContactMap from "../components/ContactMap";
 import MessageForm from "../components/MessageForm";
 
 const Contact = () => {
   return (
     <div>
       <ContactHeader />
-      <div className="">
-        <div className=""></div>
-        <div className="">
-          <MessageForm />
-        </div>
-      </div>
+
+      <MessageForm />
+      <ContactMap />
     </div>
   );
 };
