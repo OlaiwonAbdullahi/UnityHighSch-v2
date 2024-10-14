@@ -1,7 +1,7 @@
 import computer from "../assets/computer.jpg";
 import teach from "../assets/teach.jpg";
 import pic from "../assets/pic.jpg";
-import student from "../assets/student.jpg";
+//import student from "../assets/student.jpg";
 import studenttro from "../assets/studenttro.jpg";
 
 const Pictures = () => {
@@ -27,7 +27,7 @@ const Pictures = () => {
           className="w-full h-48 object-cover rounded-xl"
         />
         <img
-          src={student}
+          src={studenttro}
           alt="Student"
           className="w-full h-48 object-cover rounded-xl"
         />
