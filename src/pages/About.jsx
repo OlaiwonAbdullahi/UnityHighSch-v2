@@ -5,8 +5,9 @@ const About = () => {
   return (
     <div>
       <AboutIntro />
-      <br/>
-      <M_VSection />
+      <div className=" w-4/5 flex justify-center items-center mx-auto">
+        <M_VSection />
+      </div>
     </div>
   );
 };

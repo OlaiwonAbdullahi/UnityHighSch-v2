@@ -4,12 +4,16 @@ import contact from "../assets/contact.jpg";
 const MessageForm = () => {
   return (
     <div>
-      <div className="flex p-3 gap-4">
+      <div className="flex p-3 gap-4 flex-col md:flex-row">
         <div className="relative basis-3/5">
           <div className="relative">
-            <img src={contact} alt="" className="h-full w-full rounded-l-2xl" />
+            <img
+              src={contact}
+              alt=""
+              className="h-full w-full md:rounded-l-2xl rounded-2xl"
+            />
 
-            <div className="absolute inset-0 rounded-l-2xl bg-black bg-opacity-70 flex items-center justify-center">
+            <div className="absolute inset-0 md:rounded-l-2xl rounded-2xl bg-black bg-opacity-70 flex items-center justify-center">
               <h2 className="text-white text-4xl font-semibold">
                 Get in Touch
               </h2>
