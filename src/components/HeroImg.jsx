@@ -7,14 +7,18 @@ const HeroImg = () => {
       <div className="grid gap-4 grid-cols-2 grid-rows-2">
         <span>
           {" "}
-          <img src={Hero} alt="Hero Image 2" className="w-64 h-64 rounded-xl" />
+          <img
+            src={Hero}
+            alt="Hero Image 2"
+            className="md:w-64 md:h-64 w-32 h-36 rounded-xl"
+          />
         </span>
         <span>
           {" "}
           <img
             src={Hero1}
             alt="Hero Image 3"
-            className="w-64 h-64 rounded-full"
+            className="md:w-64 md:h-64  w-32 h-36 rounded-full"
           />
         </span>
         <span>
@@ -22,7 +26,7 @@ const HeroImg = () => {
           <img
             src={Hero2}
             alt="Hero Image 1"
-            className="w-64 h-64  rounded-tl-[70px]"
+            className="md:w-64 md:h-64  w-32 h-36 rounded-tl-[70px]"
           />
         </span>
         <span>
@@ -30,7 +34,7 @@ const HeroImg = () => {
           <img
             src={Hero}
             alt="Hero Image 4"
-            className="w-64 h-64  rounded-xl"
+            className="md:w-64 md:h-64  w-32 h-36 rounded-xl"
           />
         </span>
       </div>
