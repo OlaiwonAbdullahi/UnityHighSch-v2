@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Feature = () => {
   return (
     <div className="bg-primary text-text font-semibold font-titalium text-center py-12">
@@ -14,12 +16,14 @@ const Feature = () => {
           <span className="text-6xl sm:text-7xl">15+</span>
           <span className="text-2xl">Classrooms</span>
         </div>
-      </div>
-      <div className="flex justify-center mt-6 w-full">
-        <button className="bg-transparent border border-secondary w-2/3 md:w-1/4 h-12 p-3 rounded-full whitespace-nowrap">
-          View Full Demography
-        </button>
-      </div>
+      </div>{" "}
+      <Link to="/demo">
+        <div className="flex justify-center mt-6 w-full">
+          <button className="bg-transparent border border-secondary w-2/3 md:w-1/4 h-12 p-3 rounded-full whitespace-nowrap">
+            View Full Demography
+          </button>
+        </div>
+      </Link>
     </div>
   );
 };
