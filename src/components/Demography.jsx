@@ -1,3 +1,5 @@
+import DemoChart from "./DemoChart";
+
 const Demography = () => {
   return (
     <div className="flex flex-col items-center justify-center py-6">
@@ -18,6 +20,9 @@ const Demography = () => {
           <h2 className="text-3xl font-bold font-titalium">644</h2>
           <span className="text-lg font-poppins">Female</span>
         </div>
+      </div>
+      <div className="">
+        <DemoChart />
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ const data = [
   { name: "Page G", uv: 3490, pv: 4300, amt: 2100 },
 ];
 
-const Example = () => {
+const DemoChart = () => {
   return (
     <ResponsiveContainer width="100%" height={400}>
       <BarChart
@@ -44,4 +44,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default DemoChart;
