@@ -1,4 +1,5 @@
 import AboutIntro from "../components/AboutIntro";
+import Curiculum from "../components/Curiculum";
 import Edge from "../components/Edge";
 import M_VSection from "../components/M_VSection";
 import Principals from "../components/Principals";
@@ -17,6 +18,9 @@ const About = () => {
       </div>
       <div className="">
         <Edge />
+      </div>
+      <div className="">
+        <Curiculum />
       </div>
     </div>
   );
