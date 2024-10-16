@@ -1,96 +1,53 @@
-import React from 'react'
-
 const Principals = () => {
-  return (
-    <div>
-      <table class="table-auto w-full p-5 text-left font-poppins border">
-  <thead>
-    <tr className='capitalize w-1/2 '>
-      <th>names</th>
-      <th>date-in</th>
-      <th>date-out</th>
-    </tr>
-  </thead>
-  <tbody className='border'>
-    <tr className='border'>
-      <td>Mrs. Martins Later Mrs. Shobande</td>
-      <td>1980</td>
-      <td>1984</td>
-    </tr>
-    <tr className='border'>
-      <td>Mr. Bakrin</td>
-      <td>1984</td>
-      <td>1987</td>
-    </tr>
-    <tr className='border'>
-      <td>(Mrs) Chief Opajobi.O.Or</td>
-      <td>1987</td>
-      <td>1992</td>
-    </tr>
-    <tr className='border'>
-      <td>(Mrs) Chief Opajobi.O.Or</td>
-      <td>1987</td>
-      <td>1992</td>
-    </tr>
-    <tr className='border'>
-      <td>Mr. Omotola.A</td>
-      <td>1993</td>
-      <td>1995</td>
-    </tr>
-    <tr className='border'>
-      <td>Mr. M.O Ajayi</td>
-      <td>1995</td>
-      <td>1997</td>
-    </tr>
-    <tr className='border'>
-      <td>Mr. B.B Lawal</td>
-      <td>1997</td>
-      <td>1998</td>
-    </tr>
-    <tr className='border'>
-      <td>Mr. B.O Okutade</td>
-      <td>1998</td>
-      <td>2000</td>
-    </tr>
-    <tr className='border'>
-      <td>Mr. Sholanke E.O</td>
-      <td>2000</td>
-      <td>2010</td>
-    </tr>
-    <tr className='border'>
-      <td>Mr. Adeoye M.O</td>
-      <td>2010</td>
-      <td>2011</td>
-    </tr>
-    <tr className='border'>
-      <td>Mr. Jibowo S.S</td>
-      <td>2011</td>
-      <td>2014</td>
-    </tr>
-    <tr className='border'>
-      <td>Mr. Sobulo O.O</td>
-      <td>2014</td>
-      <td>2020</td>
-    </tr>
-    <tr className='border'>
-      <td>Mrs. Akinbode I.O</td>
-      <td>2020</td>
-      <td>2020</td>
-    </tr>
-    <tr className='border'>
-      <td>Mr. Adeoye M.O</td>
-      <td>2020</td>
-      <td>2023</td>
-    </tr>
-    <tr className='border'>
-      <td>Mr. Akinbode T.D</td>
-      <td>2023</td>
-      <td>Present</td>
-    </tr>
-  </tbody>
-</table>
-    </div>
-  )
-}
+  const principalsData = [
+    {
+      name: "Mrs. Martins Later Mrs. Shobande",
+      dateIn: "1980",
+      dateOut: "1984",
+    },
+    { name: "Mr. Bakrin", dateIn: "1984", dateOut: "1987" },
+    { name: "(Mrs) Chief Opajobi.O.Or", dateIn: "1987", dateOut: "1992" },
+    { name: "Mr. Omotola.A", dateIn: "1993", dateOut: "1995" },
+    { name: "Mr. M.O Ajayi", dateIn: "1995", dateOut: "1997" },
+    { name: "Mr. B.B Lawal", dateIn: "1997", dateOut: "1998" },
+    { name: "Mr. B.O Okutade", dateIn: "1998", dateOut: "2000" },
+    { name: "Mr. Sholanke E.O", dateIn: "2000", dateOut: "2010" },
+    { name: "Mr. Adeoye M.O", dateIn: "2010", dateOut: "2011" },
+    { name: "Mr. Jibowo S.S", dateIn: "2011", dateOut: "2014" },
+    { name: "Mr. Sobulo O.O", dateIn: "2014", dateOut: "2020" },
+    { name: "Mrs. Akinbode I.O", dateIn: "2020", dateOut: "2020" },
+    { name: "Mr. Adeoye M.O", dateIn: "2020", dateOut: "2023" },
+    { name: "Mr. Akinbode T.D", dateIn: "2023", dateOut: "Present" },
+  ];
 
-export default Principals
+  return (
+    <div className="flex justify-center">
+      <table className="table-auto w-5/6 p-5 text-left font-poppins border border-primary rounded-full">
+        <caption className="text-2xl font-titalium font-bold mb-4">
+          List of Principals
+        </caption>
+        <thead>
+          <tr className="capitalize bg-primary font-titalium">
+            <th className="px-4 py-2">Names</th>
+            <th className="px-4 py-2">Date In</th>
+            <th className="px-4 py-2">Date Out</th>
+          </tr>
+        </thead>
+        <tbody className="border">
+          {principalsData.map((principal, index) => (
+            <tr
+              key={index}
+              className="border border-primary rounded-lg hover:bg-primary/55 text-sm"
+            >
+              <td className="px-4 py-2">{principal.name}</td>
+              <td className="px-4 py-2">{principal.dateIn}</td>
+              <td className="px-4 py-2">{principal.dateOut}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+export default Principals;
