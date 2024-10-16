@@ -24,18 +24,18 @@ const edges = [
 
 const Edge = () => {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3 my-4">
       <h2 className="text-2xl font-titalium font-bold text-center">Our Edge</h2>
       <div className="flex justify-around flex-wrap font-poppins text-sm">
         {edges.map((edge, index) => (
           <div
             key={index}
-            className="p-2 flex flex-col items-center w-60 rounded-lg border border-primary transition duration-300 shadow-md"
+            className=" text-secondary p-2 flex flex-col items-center w-60 rounded-lg border border-primary transition duration-300 shadow-md"
             role="presentation"
             aria-label={edge.text}
           >
             {edge.icon}
-            <span className="mt-1 text-center">{edge.text}</span>
+            <span className="mt-1 text-center text-text">{edge.text}</span>
           </div>
         ))}
       </div>
