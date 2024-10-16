@@ -24,8 +24,10 @@ const edges = [
 
 const Edge = () => {
   return (
-    <div className="flex flex-col gap-3 my-4">
-      <h2 className="text-2xl font-titalium font-bold text-center">Our Edge</h2>
+    <div className="flex flex-col gap-3 my-6">
+      <h2 className="text-2xl font-titalium font-bold text-center">
+        Our <span className="text-secondary">Edge</span>
+      </h2>
       <div className="flex justify-around flex-wrap font-poppins text-sm">
         {edges.map((edge, index) => (
           <div

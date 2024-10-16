@@ -25,7 +25,7 @@ const edges = [
 
 const Curiculum = () => {
   return (
-    <div className="flex flex-col gap-3 my-4">
+    <div className="flex flex-col gap-3 my-6">
       <h2 className="text-2xl font-titalium font-bold text-center">
         Extra-Curricular <span className=" text-secondary"> Activities</span>
       </h2>
