@@ -68,8 +68,7 @@ const Footer = () => {
       <hr className="border-t border-t-secondary w-4/5 mx-auto" />
 <br/>
 <div className="text-center font-titalium ">
-        <span>Made with 💜 and ☕ By <span className="underline"><a href="https://wa.link/zu9ue9">Abdullahi Olaiwon</a></span> , <span className="underline"><a href="https://wa.link/fhy7n4">Joseph Lamidi</a></span> ‿ and ‿ <span className="underline" ><a href="https://wa.link/bzm37y">John Nwabueze</a></span>
-:⁠-⁠):⁠-
+        <span>Made with 💜 and ☕ By <span className="underline"><a href="https://wa.link/zu9ue9">Abdullahi Olaiwon</a></span> , <span className="underline"><a href="https://wa.link/fhy7n4">Joseph Lamidi</a></span>  and  <span className="underline" ><a href="https://wa.link/bzm37y">John Nwabueze</a></span>
 </span>
       </div>
 <br/>
