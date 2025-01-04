@@ -70,9 +70,9 @@ const Footer = () => {
 <div className="text-center font-titalium">
         <span>Made with 💜 and ☕ By <span><a href="https://wa.link/zu9ue9">Abdullahi Olaiwon</a></span>
 
-<span><a href="https://wa.link/zu9ue9">Joseph Lamidi</a></span>
+<span><a href="https://wa.link/fhy7n4">Joseph Lamidi</a></span>
 
-<span><a href="https://wa.link/zu9ue9">John Nwabueze</a></span>
+<span><a href="https://wa.link/bzm37y">John Nwabueze</a></span>
 
 </span>
       </div>
