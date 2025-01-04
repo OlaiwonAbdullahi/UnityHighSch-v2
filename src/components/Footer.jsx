@@ -66,6 +66,16 @@ const Footer = () => {
         </div>
       </div>
       <hr className="border-t border-t-secondary w-4/5 mx-auto" />
+
+<div className="text-center font-titalium">
+        <span>Made with 💜 and ☕ By <span><a href="https://wa.link/zu9ue9">Abdullahi Olaiwon</a></span>
+
+<span><a href="https://wa.link/zu9ue9">Joseph Lamidi</a></span>
+
+<span><a href="https://wa.link/zu9ue9">John Nwabueze</a></span>
+
+</span>
+      </div>
       <div className="text-center font-titalium">
         <span>&copy; {new Date().getFullYear()} All Right Reserved</span>
       </div>
